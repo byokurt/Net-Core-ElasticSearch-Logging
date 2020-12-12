@@ -1,5 +1,5 @@
 # Net-Core-ElasticSearch-Logging
-.Net Core ile ElasticSearch üzerinde loglama ve bu logları kibana üzerinden takip etme
+.Net Core ile serlog kullanarak ElasticSearch üzerinde loglama ve bu logları kibana üzerinden takip etme
 
 Gerekli Kurulumlar için bilgisayarınızda docker uygulamanızı ayağa kaldırın ve alt kısımda yazanları sırası ile uygulayın.
 
