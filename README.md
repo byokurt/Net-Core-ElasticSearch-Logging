@@ -15,3 +15,8 @@ docker run -d --name elasticsearch --net elasticnetwork -p 9200:9200 -p 9300:930
 docker pull kibana:7.10.1
 <br/>
 docker run -d --name kibana --net elasticnetwork -p 5601:5601 kibana:7.10.1
+
+<b>Proje içinde eklenilmesi gereken nuget paketlerimiz</b>;<br/>
+Serilog<br/>
+Serilog.Sinks.ElasticSearch<br/>
+Serilog.Extensions.Logging 
